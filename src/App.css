@@ -1,38 +1,336 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mainSecttion {
+  background-color: antiquewhite;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: 100vh;
+}
+
+.ValidationPage {
+  width: 600px;
+  padding: 0px 50px 20px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.divInput {
+  margin: 30px 0px;
+}
+
+.inputTag {
+  width: 100%;
+  height: 50px;
+  margin: 20px 0 5px;
+  border: 1px solid rgb(165, 163, 163);
+  background-color: rgb(241, 242, 243);
+  border-radius: 10px;
+  font-size: 26px;
+  color: rgb(78, 78, 78);
+}
+
+.LabelTag {
+  font-weight: bold;
+  margin-top: 100px;
+}
+
+.SpanStar {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.divButtens {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.SignInButton {
+  padding: 20px;
+  background-color: rgb(241, 242, 243);
+  font-size: 20px;
+  font-weight: bold;
+  width: 40%;
+  margin: 20px;
+  border: none;
+  border-radius: 10px;
+  color: rgb(58, 59, 59);
+  cursor: pointer;
+}
+
+.SignInButton:hover {
+  background-color: rgb(78, 161, 245);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.imgTag {
+  width: 128px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.divImg {
+  position: relative;
+  top: -60px;
+  left: 230px;
+  background-color: white;
+  border-radius: 128px;
+  width: 128px;
+}
+
+.invalidInformation {
+  color: red;
+  font-size: 15px;
+}
+
+/*********************** page two *********/
+
+.navbarDiv {
+  width: 25%;
+  background-color: rgb(94, 91, 91);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex-direction: column;
+  height: 100vh;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.divImgPersonProf {
+  background-color: rgb(133, 131, 131);
+  border-radius: 128px;
+  width: 128px;
+  padding: 15px;
+}
+
+.UserInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-bottom: 5px solid rgb(148, 145, 145);
+  margin: 10px 0px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
+.DivRightSection {
+  width: 75%;
+  background-color: rgb(192, 238, 236);
+}
+
+.SubSectionRight {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 30px;
+  background-color: white;
+  justify-content: center;
+  border-radius: 15px;
+  /* padding-bottom: 40px; */
+}
+
+.ProfileImg {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.EmptySghere {
+  border: 3px solid rgb(134, 36, 247);
+  background-color: white;
+  border-radius: 90px;
+  padding: 70px 25px;
+  width: 90px;
+  position: absolute;
+  /* position: relative; */
+  top: 140px;
+}
+
+.EmptySgherePluse {
+  border: 3px solid rgb(134, 36, 247);
+  background-color: white;
+  border-radius: 70px;
+  padding: 10px 15px;
+  width: 40px;
+  position: absolute;
+  left: 100px;
+  bottom: 5px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(241, 241, 245);
+  background-color: rgb(152, 152, 248);
+  align-items: center;
+  cursor: pointer;
+}
+
+.PersonInfoDetail {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0px 30px;
+}
+
+.ImagePerson {
+  width: 100%;
+  height: 200px;
+}
+
+.divOptionImg {
+  border-block: 5px solid rgb(71, 68, 68);
+  padding: 10px 40px;
+  background-color: white;
+}
+
+.divMainPageTwo {
+  display: flex;
+  background-color: rgb(232, 240, 248);
+  border: 1px solid rgb(66, 65, 65);
+}
+
+.LeftPersonInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.LabelTagInfo {
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.LabelTagInfoF {
+  font-weight: bold;
+}
+
+.SaveChenge {
+  text-align: center;
+  margin: 10px 0px 20px;
+}
+
+.buttenSave {
+  background-color: aqua;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bolder;
+  color: rgb(59, 58, 58);
+}
+
+.buttenSave:hover {
+  background-color: rgb(233, 120, 120);
+}
+
+/******************* page Items      ***********************/
+
+.SubjectPageForm {
+  padding: 10px 20px;
+  color: rgb(73, 72, 72);
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.SectionInputPageItem {
+  justify-content: flex-start;
+  padding: 10px 0px 10px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 30px;
+}
+
+.divInputPageItems {
+  width: 30%;
+}
+
+.inputPageItem {
+  width: 100%;
+  display: block;
+  height: 50px;
+  margin: 5px 0 10px;
+  border: 1px solid rgb(165, 163, 163);
+  background-color: rgb(241, 242, 243);
+  border-radius: 10px;
+  font-size: 26px;
+  color: rgb(78, 78, 78);
+}
+
+.SubmitForm {
+  width: 100%;
+  display: block;
+  height: 50px;
+  margin: 20px 0 5px;
+  border: 1px solid rgb(165, 163, 163);
+  background-color: rgb(173, 212, 250);
+  border-radius: 10px;
+  font-size: 26px;
+  font-weight: bold;
+  color: rgb(105, 103, 103);
+  margin-top: 35px;
+  cursor: pointer;
+}
+
+.SubmitForm:hover {
+  background-color: rgb(248, 167, 167);
+}
+
+.HeaderTable {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  border: 2px solid rgb(76, 72, 72);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.TabelSection {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px 20px;
+  background-color: white;
+  justify-content: center;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.RowTable {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+.backgrondRows {
+  background-color: rgb(192, 185, 185);
+}
+
+.Pointer {
+  cursor: pointer;
+}
+
+/******************** Page tree **********************/
+
+.DiveImgDiagram{
+  display: flex;
+  justify-content: space-around;
+  height: 320px;
+  margin: 20px;
 }
